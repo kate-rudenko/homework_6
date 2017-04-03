@@ -1,0 +1,555 @@
+body {
+  width: 100%;
+  min-width: 930px;
+  color: black;
+  background: white;
+}
+.wrapper {
+  padding-top: 17px;
+  width: 920px;
+  margin: auto;
+  height: 100%;
+  min-height: 1200px;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+}
+.top_content {
+  width: 920px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+}
+.top {
+  height: 30px;
+  overflow: hidden;
+}
+.contacts {
+  float: left;
+  margin-left: 10px;
+  padding-top: 4px;
+  width: auto;
+  height: 24px;
+  color: #5e696d;
+}
+.telephone {
+  float: left;
+}
+.contacts span {
+  float: left;
+  margin-right: 2.5px;
+  margin-left: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.3px;
+}
+.authorization {
+  margin-left: 14px;
+  float: left;
+  width: 495px;
+  height: 26px;
+  background-image: linear-gradient(to top, #0d365a 0%, #1f6787 100%);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px -1px #596d80;
+}
+.registr {
+  float: left;
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 4px;
+}
+.authoriz {
+  float: left;
+  margin-top: 4px;
+  width: 272px;
+  height: 17px;
+}
+.authoriz input {
+  width: 106px;
+  height: 12px;
+  font-size: 10.91px;
+  color: #97a2a6;
+  padding-left: 4px;
+  margin-right: 3px;
+}
+.authoriz button {
+  float: right;
+  border: none;
+  background: none;
+  padding: 1px 3px 1px 0;
+  font-size: 10.91px;
+  color: #ffffff;
+  font-family: "Lucida Sans Unicode", Arial, sans-serif;
+}
+.authorization span {
+  font-size: 10.91px;
+  color: #ffffff;
+}
+.reg {
+  font-size: 10.91px;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 26px;
+  margin-left: -3px;
+}
+.pass {
+  float: right;
+  height: 19.5px;
+  font-size: 12px;
+  color: #bfbfbf;
+  line-height: 26px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #bfbfbf;
+}
+.mini_nav {
+  float: right;
+  margin-right: 13px;
+  margin-top: 2px;
+  width: 69px;
+  height: 19px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px -1px #c1c8cb;
+  padding: 1px 3px 0 3px;
+}
+.home {
+  margin-left: 5px;
+}
+.map {
+  margin-left: 4px;
+}
+.letter {
+  margin-left: 3px;
+}
+.foto {
+  margin: auto;
+  margin-top: 6px;
+  background: url(../img/foto.jpg) top center;
+  width: 909px;
+  height: 237px;
+}
+.foto a {
+  display: block;
+  position: absolute;
+  width: 265px;
+  height: 115px;
+  margin-top: 55px;
+}
+.menu_top {
+  margin: auto;
+  margin-top: 6px;
+  width: 910px;
+  height: 31px;
+  background-image: linear-gradient(to top, #030303 0%, #2d3236 90%, #505860 10%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0px #50525e;
+  border: 1px solid #2c345a;
+}
+.menu {
+  float: left;
+  display: inline-block;
+  width: 556px;
+  margin-left: 126px;
+}
+.menu li {
+  float: left;
+  display: block;
+}
+.menu a {
+  display: block;
+  margin-top: 3px;
+  text-decoration: none;
+  font-size: 13.64px;
+  text-transform: uppercase;
+  color: #b1bcc0;
+  text-align: center;
+  line-height: 29px;
+}
+.menu_1 a {
+  padding: 0 19px 0 20px;
+}
+.menu_2 a, .menu_3 a, .menu_4 a {
+  padding: 0 16px 0 15px;
+}
+.menu_5 a {
+    padding: 0 11px 0 9px;
+}
+.menu a:hover {
+  color: #e9ecef;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #0c3357 0%, #1f6787 100%);
+}
+.calculator {
+  float: left;
+  display: block;
+  width: 215px;
+  height: 30px;
+  line-height: 30px;
+}
+.calculator a {
+  float: left;
+  display: block;
+}
+.calculator img {
+  vertical-align: middle;
+}
+.bascet {
+  float: left;
+  display: inline-block;
+}
+.bascet li {
+  float: left;
+  display: inline-block;
+  height: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  color: #8a9296;
+}
+.quantity {
+  margin-left: 8px;
+}
+.sum {
+  margin-left: 16px;
+}
+.bascet span {
+  font-size: 10px;
+  color: #0d5a8f;
+}
+.quantity span {
+  margin-left: 5px;
+}
+.sum span {
+  margin-left: 13px
+}
+.forms img {
+  margin: auto;
+  margin-top: 11px;
+  margin-left: 5px;
+  display: flex;
+}
+.left {
+  float: left;
+  margin-top: 3px;
+  width: 190px;
+  height: auto;
+  color: #114165;
+}
+.left_catalog {
+  margin-top: 7px;
+  margin-left: 3px;
+  width: 182px;
+  height: 24px;
+  border: 1px solid #8b979c;
+  border-radius: 20px;
+  box-shadow:  1px 1px 3px 1px #bfbfbf;
+  font-size: 12.73px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 27px;
+}
+.left_catalog img {
+  float: left;
+  margin: 1px 0 0 1.5px;
+}
+.left_catalog p {
+  float: left;
+  padding-left: 4px;
+}
+.left_tires {
+  margin-top: 14px;
+  margin-left: 4px;
+  width: 160px;
+  height: 130px;
+}
+.l_tires, .l_discs, .bolts {
+  float: left;
+  width: 149px;
+  height: 25px;
+  border: 1px solid #79878d;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 29px;
+  margin-left: 1px;
+}
+.l_tires img, .l_discs img, .bolts img {
+  float: left;
+  margin-left: 2px;
+}
+.l_tires p, .l_discs p, .bolts p {
+  float: left;
+  margin-left: 1px;
+}
+.tires_name, .discs_name, .bolts_name {
+  float: left;
+  margin-top: 1px;
+  margin-left: 35px;
+  color: #465961;
+  font-size: 12.7px;
+}
+.tires_name li, .discs_name li, .bolts_name li {
+  padding-left: 10px;
+  width: 130px;
+  height: 26px;
+  background: url(../img/marker.png) no-repeat center left;
+}
+.tires_name li:last-child {
+  height: 24px;
+}
+.tires_name a, .discs_name a, .bolts_name a {
+  margin-left: 2px;
+  text-decoration: none;
+  line-height: 26px;
+}
+.tires_name a:hover, .discs_name a:hover, .bolts_name a:hover {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Arial';
+  color: #0c3256;
+  line-height: 26px;
+  border-bottom: 2px solid;
+}
+.tires_name li:hover, .discs_name li:hover, .bolts_name li:hover  {
+  background: url(../img/marker_active.png) no-repeat center left;
+}
+.left_discs, .left_bolts {
+  width: 160px;
+  height: 130px;
+  margin-left: 4px;
+}
+.l_discs {
+  margin-top: -3px;
+  height: 27px;
+  margin-bottom: -3px;
+}
+.bolts {
+  margin-top: -6px;
+  height: 27px;
+}
+main {
+  float: left;
+  margin: 6px;
+  width: 525px;
+  min-height: 627px;
+  background-image: linear-gradient(to top, #93a7b0 0%, #e5e7e8 100%);
+  border-radius: 3px;
+}
+main a {
+  text-decoration: none;
+  color: #206988;
+}
+.first_line, .second_line, .third_line {
+  width: 505px;
+  height: 180px;
+}
+.first_line {
+  margin: 15px 10px 22px 9px;
+}
+.second_line {
+  margin-left: 8px;
+}
+.third_line {
+  margin: 24px 10px 23px 8px;
+}
+.first, .second, .third {
+  width: 140px;
+  text-align: center;
+  float: left;
+  margin: 0 16px 0 12px;
+}
+.second p {
+  margin-left: 2px;
+}
+.third p {
+  margin-left: 3px;
+}
+.first_line p, .second_line p, .third_line p {
+  font-weight: 600;
+  color: #206988;
+  font-size: 15px;
+}
+.kind_1, .kind_2, .kind_3 {
+  font-size: 13px;
+  margin-bottom: 1px;
+  color: #1f2528;
+}
+.kind_1 {
+  margin-left: 6px;
+}
+.kind_2 {
+  margin-left: 5px;
+}
+.price {
+  color: #114165;
+  font-style: italic;
+  font-family: "Arial";
+  font-weight: 900;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.price span {
+  font-size: 12px;
+  font-weight: 600;
+}
+.right {
+  float: left;
+  margin-left: 4px;
+  margin-top: 3px;
+  width: 185px;
+  height: auto;
+  color: #114165;
+}
+form {
+  width: 135px;
+}
+.right_brands {
+  margin-top: 5px;
+  width: 180px;
+  height: 24px;
+  border: 1px solid #8b979c;
+  border-radius: 20px;
+  box-shadow:  1px 1px 3px 1px #bfbfbf;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 26px;
+}
+.right_brands img {
+  float: left;
+  margin: 1px 0 0 2px;
+}
+.right_brands p {
+  float: left;
+  padding-left: 5px;
+}
+.r_tires, .r_discs {
+  float: left;
+  margin-top: 14px;
+  margin-left: 14px;
+  width: 134px;
+  height: 26px;
+  border: 1px solid #79878d;
+  border-radius: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 29px;
+}
+.r_discs {
+  margin-top: 3px;
+  height: 27px;
+}
+.r_tires img, .r_discs img {
+  float: left;
+  margin-left: 1px;
+}
+.r_tires p, .r_discs p {
+  float: left;
+  margin-left: 2px;
+  line-height: 26px;
+}
+.tires_chbox, .discs_chbox {
+  float: left;
+  margin-left: 17px;
+  line-height: 1.6;
+  margin-top: -3.5px;
+}
+.brands1, .brands2 {
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-left: 22px;
+  font-size: 13px;
+  margin-top: 8px;
+}
+.brands1 label, .brands2 label {
+  width: 250px;
+  height: 15px;
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin: 0 0 10px;
+}
+input[type="checkbox"] + span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/checkbox.png) no-repeat;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + span {
+  background: url(../img/checkbox-checked.png) no-repeat;
+}
+input[type="checkbox"] {
+  display:none;
+}
+.brand {
+  font-size: 12.73px;
+  padding-left: 2px;
+}
+button {
+  float: left;
+  width: 78px;
+  height: 25px;
+  margin-left: 26px;
+  border-radius: 10px;
+  margin-top: 9px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to top, #0d3458 0%, #1f6787);
+  box-shadow: 1px 1px 6px 1px #697b8b;
+  font-size: 12px;
+  font-family: Arial;
+  color: #e5e9ea;
+  border: none;
+}
+.logos {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.footer {
+  background: #213a4d;
+  bottom: 0;
+  width: 910px;
+  height: 100px;
+  margin: auto;
+  margin-top: 25px;
+  border: 1px solid #242c3e;
+  box-shadow: 3px -1px 2px -1px #7e828c;
+}
+.menu_bottom {
+  font-size: 12px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.menu_bottom li {
+  float: left;
+  display: block;
+  color: #bec6c9;
+  margin-top: 11px;
+}
+.menu_bottom a {
+  text-decoration: none;
+  color: #bec6c9;
+  padding: 0 12px;
+  font-family: Arial;
+}
+.menu_bottom a:hover, .menu_bottom a:active  {
+  color: #52abcb
+}
+.footer p {
+  font-size: 10px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  color: #7f4740;
+  font-family: Arial;
+  font-weight: bold;
+}
